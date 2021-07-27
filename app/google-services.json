@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "935287337805",
+    "project_id": "bookyourevent-50c7e",
+    "storage_bucket": "bookyourevent-50c7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935287337805:android:549081d141d73e4373fd04",
+        "android_client_info": {
+          "package_name": "com.example.bookyevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935287337805-00gb785qu1cghipq2617962p5it50ke1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookyevent",
+            "certificate_hash": "344a8961b19771db2794341638542ff8ea792455"
+          }
+        },
+        {
+          "client_id": "935287337805-59e91lpsbpapn2ki1e6v70vl2kcamk65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfp446vFWwKskngweFRTUOPNp3jeVqLOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935287337805-59e91lpsbpapn2ki1e6v70vl2kcamk65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

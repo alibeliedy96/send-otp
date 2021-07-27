@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BookYEvent</string>
+    <string name="next">Next</string>
+    <string name="verify">Verify</string>
+    <string name="change_number">Change number</string>
+
+</resources>

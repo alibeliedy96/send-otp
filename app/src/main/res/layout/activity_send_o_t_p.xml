@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:background="@color/colorPrimaryDark"
+    android:scrollbars="none"
+    tools:context=".SendOTPActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_email"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Let's Get Started"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="50dp"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="50dp"
+            android:text="We will send you an one time password to this mobile number"
+            />
+        <RelativeLayout
+            android:id="@+id/phone_number_name_et"
+            style="@style/RoundedEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_rounded_background"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="30dp"
+            android:includeFontPadding="true"
+            android:inputType="number|textPersonName"
+            >
+
+            <EditText
+                android:id="@+id/input_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:ems="10"
+                android:fontFamily="@font/roboto_regular"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:layout_toEndOf="@id/ccp"
+                android:paddingStart="5dp"
+                android:hint="01165945528"
+                android:layout_centerVertical="true"
+                android:textCursorDrawable="@null"
+                android:textSize="15sp" />
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:ccp_showPhoneCode="true"
+                app:ccp_autoDetectCountry="true"
+                app:ccp_textSize="14sp"
+                app:ccp_flagBorderColor="@color/BlackColor"
+                app:ccp_showNameCode="false"/>
+
+        </RelativeLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/btn_getOTP"
+                style="@style/RoundedButton"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/next"
+                />
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:visibility="gone"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+       
+    </LinearLayout>
+
+</ScrollView>

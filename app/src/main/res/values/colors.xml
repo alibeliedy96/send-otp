@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#64C4ED</color>
+    <color name="colorPrimaryDark">#3B5998</color>
+    <color name="colorPrimaryDarkImages">#3B5998</color>
+    <color name="colorAccent">#F0D78C</color>
+    <color name="WhiteColor">#FFFFFF</color>
+    <color name="BlueLightColor">#64C4ED</color>
+    <color name="BlueDarkColor">#3B5998</color>
+    <color name="GreenColor">#1BB650</color>
+    <color name="RedColor">#F44336</color>
+    <color name="YellowColor">#F0D78C</color>
+    <color name="BlueColor">#4F81C7</color>
+    <color name="TransparentColor">@android:color/transparent</color>
+    <color name="textTitle2">#8ECEE9</color>
+    <color name="silverColor">#c0c0c0</color>
+    <color name="MaroonColor">#800000</color>
+    <color name="PurpleColor">#800080</color>
+    <color name="NavyColor">#000080</color>
+    <color name="TealColor">#008080</color>
+    <color name="BlackColor">#000000</color>
+    <color name="GrayColor">#C4C4C4</color>
+    <color name="FuchsiaColor">#FF00FF</color>
+    <color name="fb">#3B5998</color>
+    <color name="DarkGrayColor">#ECEFF1</color>
+
+
+    <color name="ehabColor">#FF0000</color>
+</resources>
